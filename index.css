@@ -28,17 +28,16 @@ body {
   background: transparent;
   cursor: pointer;
   outline: none;
-  /* margin-top: 1em; */
+
   text-transform: uppercase;
   font-weight: 500;
 }
 .btn-pri {
   border-radius: 30px;
   background-color: rgb(49, 136, 14);
-  /* border:2px solid white; */
+
   color: white;
   text-align: center;
-  /* border:2px solid white; */
 }
 .btn-sec {
   border-radius: 30px;
@@ -47,7 +46,7 @@ body {
   color: rgb(49, 136, 14);
 }
 /* ################## NAV BAR STYLING ######## */
-/* for desktop mode */
+
 .navbar input[type="checkbox"],
 .navbar .hamburger-lines {
   display: none;
@@ -80,7 +79,7 @@ body {
 .menu-items a {
   text-decoration: none;
   color: black;
-  /* color:rgb(49, 136, 14); */
+
   font-size: 20px;
   transition: color 0.2s ease-in-out;
 }
@@ -109,7 +108,6 @@ body {
   justify-content: center;
   height: 100%;
   font-size: 1.6rem;
-  /* background-color: aquamarine; */
 }
 .showcase-container h1 {
   color: rgb(20, 105, 12);
@@ -142,8 +140,6 @@ body {
   border-radius: 10px;
   flex-wrap: wrap;
   box-shadow: 0px 0px 20px 0px rgb(88, 88, 88);
-  /* margin: 1rem; */
-  /* height: 500px; */
 }
 #about h2 {
   font-size: 2.5rem;
@@ -158,8 +154,6 @@ body {
   font-size: 1.6rem;
   color: rgb(20, 105, 12);
   padding: 1rem;
-  /* background: rgb(231, 230, 230) ; */
-  /* border-radius: 20px; */
 }
 .about-us {
   font-weight: 500;
@@ -170,8 +164,6 @@ body {
   width: 30%;
   transform: translateX(150%);
   animation: about-img-anime 1s ease-in-out forwards;
-  /* box-shadow: 0px 0px 20px 0px black; */
-  /* background-color: yellow; */
 }
 @keyframes about-img-anime {
   100% {
@@ -199,58 +191,48 @@ body {
   object-fit: cover;
   object-position: right;
   border-radius: 10px;
-  /* box-shadow: 0 0 20px 0 black; */
 }
 /* //////////////service/////////////// */
 #food {
   padding: 2rem 0 2rem 0;
-  /* background-color: #e2f7c3 */
+
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
   background-color: rgb(243, 243, 243);
-
-  /* display: flex; */
-  /* background: rgb(215, 250, 180); */
 }
 #food h2 {
   text-align: center;
   font-size: 3.5rem;
   margin-bottom: 40px;
   text-transform: uppercase;
-  /* color:teal; */
+
   color: rgb(49, 136, 14);
-  /* background: white; */
+
   margin-top: 2rem;
 }
 .service_box {
   background-color: rgb(215, 250, 180);
-  width: 70%;
+  width: 90%;
   border-radius: 10px;
   display: flex;
   justify-content: center;
-  /* background:rgb(243, 243, 243); */
+
   border-radius: 10px;
-  flex-wrap: wrap;
+
   box-shadow: 0px 0px 20px 0px rgb(88, 88, 88);
   padding: 30px;
 }
 .food-container {
   display: flex;
-  justify-content: space-around;
-  /* padding: 1rem 1rem ; */
-  /* background-color: yellow; */
-  min-height: 300px;
-  /* margin-bottom: 20px; */
-  /* background: rgb(215, 250, 180); */
+  justify-content: center;
+  height: 300;
 }
 .food-container img {
   display: block;
-  /* background-color: yellow; */
   width: 100%;
-  height: 300px;
-  width: 500px;
+
   margin: auto;
   object-fit: cover;
   object-position: center;
@@ -258,6 +240,10 @@ body {
 .img-container {
   margin: 0 1rem;
   position: relative;
+}
+.img-container img {
+  height: 200px;
+  width: 300px;
 }
 .img-content {
   position: absolute;
@@ -274,7 +260,6 @@ body {
   text-align: center;
   font-size: 20px;
   color: white;
-  /* transform: tran; */
 }
 .img-container::after {
   content: "";
@@ -345,10 +330,9 @@ body {
   justify-content: center;
   align-items: center;
   flex: 1 1 400px;
-  /* justify-content: space-evenly; */
+
   margin-bottom: 3rem;
-  /* flex-wrap: wrap; */
-  /* background-color: blueviolet; */
+
   margin: 5px;
 }
 .food-title {
@@ -439,8 +423,6 @@ body {
   width: 600px;
   background: rgb(255, 255, 255);
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.6);
-
-  /* justify-content: space-between; */
 }
 
 .contact-img img {
